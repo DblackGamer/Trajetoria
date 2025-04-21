@@ -8,3 +8,4 @@ x={
 myvar=pd.DataFrame(x)
 
 print(myvar)
+print(myvar.loc[0])
