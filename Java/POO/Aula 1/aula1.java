@@ -8,7 +8,7 @@ public class aula1 {
         Aluno aluno1= new Aluno();
         aluno1.nome= "Juan";
         aluno1.nota= 6;
-
+        teste
         System.out.println(aluno1.nome);
     }
 }
