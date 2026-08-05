@@ -6,7 +6,8 @@ public class aula2poo {
         class Animal{
             String Nome;
             void barulho(){
-                System.out.println("Algum Som");}
+                System.out.println("Algum Som");
+            }
             int idade;
             String CordoPelo;
             }
@@ -22,8 +23,9 @@ public class aula2poo {
         Cachorro Malu = new Cachorro();
         Malu.Nome= "Malu";
         Malu.idade = 4;
-        Malu.barulho();
         System.out.println(Malu.Nome);
+        Malu.barulho();
+        Malu.CordoPelo= "Branco";
 
 
     }
